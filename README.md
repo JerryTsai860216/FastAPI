@@ -1,6 +1,12 @@
 
 # FastAPI
 
+* Structure
+```
+FastAPI
+├── model_name
+    ├── main.app
+```    
 
 ### Quick start
 1. Create FastAPI main.py
@@ -28,12 +34,11 @@ async def get_model(model_name:ModelName):
 
 
 2. run main.py
-> Open Terminal
+> Open Terminal in main.py path
 
 ```
 $ uvicorn main:app --reload
 ```
-
 
 3. see the url
 
@@ -42,3 +47,6 @@ $ uvicorn main:app --reload
 * http://localhost:8000/models/lenet
 * http://localhost:8000/docs
 * http://localhost:8000/redoc
+
+
+4. see the terminal INFO
